@@ -1,0 +1,99 @@
+﻿/**
+*
+*	Name:			IRAN Sans-Serif Font
+*	Version:		5.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Dec 25, 2012
+*	Updated on:		Sep 01, 2017
+*	Website:		             http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*	
+**/
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Black.ttf')
+    format('truetype');
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Bold.ttf')
+    format('truetype');
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Medium.ttf')
+    format('truetype');
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Light.ttf')
+    format('truetype');
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Thin.ttf')
+    format('truetype');
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Medium.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Bold.ttf')
+    format('truetype');
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Medium.ttf')
+    format('truetype');
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Light.ttf')
+    format('truetype');
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  src: 
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../public/fonts/Roboto-Thin.ttf')
+    format('truetype');
+}

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  front-d-hamrahehushmand-new-design:
+    container_name: front-d-hamrahehushmand-new-design
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - 3000:3000

@@ -1,0 +1,23 @@
+stages:
+  - stage
+  - landing
+
+stage:
+  stage: stage
+  only:
+    - stage
+  retry: 2
+  script:
+    - sudo docker-compose build --build-arg PROFILE="build"
+    - sudo docker-compose -f docker-compose.yml down --remove-orphans arzesh
+    - sudo docker-compose -f docker-compose.yml up -d arzesh
+
+landing:
+  stage: landing
+  only:
+    - stage
+  retry: 2
+  script:
+    - sudo docker-compose build --build-arg PROFILE="build-landing"
+    - sudo docker-compose -f docker-compose.yml down front-super-app
+    - sudo docker-compose -f docker-compose.yml up -d front-super-app
